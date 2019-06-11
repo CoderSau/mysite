@@ -1,0 +1,190 @@
+/* GENERAL SECTION */
+
+h3{
+  font-size:18px;
+  font-weight: 400px
+}
+h2{
+  font-size:32px;
+  font-weight: 400px;
+      color:#1886C7;
+}
+p{
+  font-size:14px;
+}
+/* HOME SECTION */
+.navbar{
+border-bottom: #1886C7 1px solid;    
+}
+
+.navbar .navbar-brand{
+  color:#1886C7 ;
+  font-size: 24px;
+}
+.bg-dark{
+  background-color: rgba(0,0,0,.9) !important;
+}
+.navbar-nav .nav-link{
+  color:white !important;
+  text-transform: uppercase;
+}
+.navbar-nav .nav-link:hover{
+  color:#1886C7 !important;
+}
+#headerSection{
+  background: url(../images/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  
+}
+#headerSection .overlay{
+  background-color:rgba(0,0,0,.7);    
+}
+#headerSection .row{
+  height: 100vh;
+}
+#headerSection span{
+      color:#1886C7 !important;
+}
+.btn-outline-primary{
+  padding-left:30px;
+  padding-right:30px;
+  border-radius: 0;
+}
+/* FEATURES SECTION */
+#features .fa{
+  font-size:40px;
+   transition: color .3s ease;
+}
+.feature-top{
+      transition: color .5s ease;
+}
+.feature-top:hover{
+  color:#1886C7;
+  cursor:pointer;
+}
+/*History Section*/
+#ourHistory h2{
+  border-left: 6px solid #1886C7;
+  padding-left: 30px;
+}
+#ourHistory .col-md-6{
+  display: inline;
+}
+#ourHistory .btn-outline-primary{
+  position: absolute;
+  bottom: 0; 
+}
+#ourHistory p{
+  line-height: 28px;
+}
+.table input{
+  width: 100%;
+}
+.table{
+  font-size: 13px;
+}
+/*Team Section*/
+#team .card{
+  border:none;  
+  opacity: 0.5;
+  cursor:pointer;
+  transition: all 0.5s ease;
+}
+#team .card:hover{
+  opacity: 1;
+}
+#team .fab{
+  font-size: 24px;
+}
+#whatWeDo{
+  margin-bottom:10px;
+
+  background:linear-gradient(
+    rgba(0,0,0,.7), rgba(0,0,0,.7)
+  ),
+  url(../images/code.jpg);
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#caseStudy{
+  background-color: #f4f5f9;
+}
+.caseArea{
+  background-color: #fff;
+  margin-top:25px;
+  margin-right:-80px;
+  z-index:100;
+  padding:30px;
+  position:relative;
+}
+#caseStudy h3{
+  font-size:18px;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+#caseStudy .fa{
+  font-size: 30px;
+}
+#portfolyo .col-md-3{
+  padding-left: 0;
+  padding-right:0;
+}
+#portfolyo h4{
+  font-size: 14px;
+  font-weight: 300;
+}
+#portfolyo .fa{
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+#portfolyo  p{
+  font-size: 14px;
+  font-weight: 300;
+}
+#portfolyo .imageContainer{
+  position: relative;
+  cursor: pointer;
+}
+#portfolyo .imageOverlay{
+  position:absolute;
+  top:0;
+  bottom:0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1886C7;
+  opacity: 0;
+  transition: 1s ease;
+}
+#portfolyo .imageOverlay:hover{
+  opacity: 0.7;
+}
+.imageText{
+  color:white;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  
+}
+
+#contact{
+  background-color: #f4f5f9
+}
+#contact .input-group{
+  width: 450px;
+}
+#main-footer{
+  color:fff;
+  background-color: #000;
+ margin-top:100px;
+}
+#main-footer p{
+  font-size:24px;
+}
